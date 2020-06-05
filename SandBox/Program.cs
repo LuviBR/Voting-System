@@ -6,7 +6,7 @@ namespace SandBox
 {
 	public class Counter
 	{
-		private double _percentage;
+		private double? _percentage;
 
 		public Counter(string name, int count)
 		{
