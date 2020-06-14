@@ -88,7 +88,6 @@ namespace SandBox
 			var manager = new CounterManager(yes, no, maybe, nopefully);
 
 			manager.AnounceWinner();
-
 		}
 	}
 }   
