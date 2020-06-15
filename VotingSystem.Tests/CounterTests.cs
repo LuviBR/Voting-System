@@ -129,8 +129,8 @@ namespace VotingSystem.Tests
 
 			var excess = 100 - totalPercent;
 
-			var highestPercent = counters.Max(x => x.Percent);
-			var highestCounters = counters.Where(x => x.Percent == highestPercent).ToList();
+			//var highestPercent = counters.Max(x => x.Percent);
+			//var highestCounters = counters.Where(x => x.Percent == highestPercent).ToList();
 
 
 			if (highestCounters.Count == 1)
